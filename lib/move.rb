@@ -10,14 +10,12 @@ end
 def input_to_index(input)
   # conver that position to an index
   index = input-1
-  # puts index
-  # return index
-  move(index)
+  return index
 end
 
 def move(index)
   # define empty board
-  board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
 
   # update board with and 'X' at the position
 
