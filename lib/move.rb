@@ -9,7 +9,7 @@ end
 # code your input_to_index and move method here!
 def input_to_index()
   puts "enter a number"
-  num = get.to_i 
+  num = gets.to_i
 end
 
 def move()
