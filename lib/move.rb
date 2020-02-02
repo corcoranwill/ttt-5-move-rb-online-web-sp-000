@@ -15,7 +15,9 @@ def input_to_index(input)
 end
 
 def move(array, index, value = "X")
-  # update board with and 'X' at the position
+  puts array
+  puts index
+  puts value
   array = update_array_at_with(array, index, value)
 end
 
