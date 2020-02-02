@@ -8,7 +8,7 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index()
-  puts "enter a number"
+  puts "enter a number (1-9)"
   num = gets.to_i
 end
 
