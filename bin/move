@@ -3,4 +3,9 @@
 require_relative '../lib/move.rb'
 
 # Code your CLI Here
-input_to_index()
+# ask the player for the position on the board they want to fill out an an 'X' or an 'O'
+puts "Welcome to Tic Tac Toe!"
+puts "Where would you like to go?"
+num = gets.to_i
+
+input_to_index(num)
