@@ -11,4 +11,5 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 index = input_to_index(input)
 array = move(board, index)
+puts array
 display_board(array)
