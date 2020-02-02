@@ -14,10 +14,12 @@ def input_to_index(input)
 end
 
 def move(array, index, value = "X")
-  # define empty board
-
-
   # update board with and 'X' at the position
+  update_array_at_with(array, index, value)
+end
 
 
+
+def update_array_at_with(array,index, value)
+  array[index] = value
 end
