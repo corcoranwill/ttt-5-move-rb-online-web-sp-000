@@ -10,4 +10,4 @@ input = gets.to_i
 
 index = input_to_index(input)
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-move(board, index, character = 'X')
+move(board, index, value = "X")
