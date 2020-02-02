@@ -10,5 +10,5 @@ input = gets.strip
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 index = input_to_index(input)
-board = move(board, index)
-display_board(board)
+array = move(board, index)
+display_board(array)
