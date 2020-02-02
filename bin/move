@@ -5,10 +5,11 @@ require_relative '../lib/move.rb'
 # Code your CLI Here
 # ask the player for the position on the board they want to fill out an an 'X' or an 'O'
 puts "Welcome to Tic Tac Toe!"
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Where would you like to go?"
 input = gets.strip
 input = input.to_i
 
 index = input_to_index(input)
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-move(board, index, value)
+
+move(board, index)
