@@ -8,7 +8,7 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(input)
-  # conver that position to an index
+  input = input.to_i
   index = input-1
   return index
 end
@@ -18,8 +18,6 @@ def move(array, index, value = "X")
   array = update_array_at_with(array, index, value)
   display_board(array)
 end
-
-
 
 def update_array_at_with(array,index, value)
   array[index] = value
