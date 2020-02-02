@@ -7,10 +7,11 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
-def input_to_index(num)
+def input_to_index(input)
   # conver that position to an index
-  num = num-1
-  puts num
+  index = input-1
+  # puts index
+  return index
 end
 
 def move()
