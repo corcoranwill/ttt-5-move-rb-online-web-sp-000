@@ -7,11 +7,7 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
-def input_to_index()
-  # ask the player for the position on the board they want to fill out an an 'X' or an 'O'
-  puts "Welcome to Tic Tac Toe!"
-  puts "Where would you like to go?"
-  num = gets.to_i
+def input_to_index(num)
   # conver that position to an index
   num = num-1
   puts num
