@@ -13,7 +13,7 @@ def input_to_index(input)
   return index
 end
 
-def move(index)
+def move(array, index, value = "X")
   # define empty board
 
 
