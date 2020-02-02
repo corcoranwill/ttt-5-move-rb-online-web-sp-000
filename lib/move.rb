@@ -18,8 +18,8 @@ def move(array, index, value = "X")
   puts array
   puts index
   puts value
-  array = update_array_at_with(array, index, value)
-  return array
+  update_array_at_with(array, index, value)
+
 end
 
 def update_array_at_with(array,index, value)
