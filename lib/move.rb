@@ -16,7 +16,6 @@ end
 def move(array, index, value = "X")
   # update board with and 'X' at the position
   array = update_array_at_with(array, index, value)
-  display_board(array)
 end
 
 def update_array_at_with(array,index, value)
